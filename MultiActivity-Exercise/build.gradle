@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.charlesliu.relativelayout_exercise"
+        applicationId "com.charlesliu.multiactivity_exercise"
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 1

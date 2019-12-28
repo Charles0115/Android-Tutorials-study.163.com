@@ -1,4 +1,4 @@
-package com.charlesliu.relativelayout_exercise;
+package com.charlesliu.multiactivity_exercise;
 
 import androidx.appcompat.app.AppCompatActivity;
 
