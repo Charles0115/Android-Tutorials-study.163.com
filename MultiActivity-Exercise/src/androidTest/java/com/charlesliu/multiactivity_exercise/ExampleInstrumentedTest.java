@@ -1,4 +1,4 @@
-package com.charlesliu.relativelayout_exercise;
+package com.charlesliu.multiactivity_exercise;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.charlesliu.relativelayout_exercise", appContext.getPackageName());
+        assertEquals("com.charlesliu.multiactivity_exercise", appContext.getPackageName());
     }
 }

@@ -1,2 +1,2 @@
-include ':RelativeLayout-Exercise'
+include ':MultiActivity-Exercise'
 rootProject.name='My Application'
