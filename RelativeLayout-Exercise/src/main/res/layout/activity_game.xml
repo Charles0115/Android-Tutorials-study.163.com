@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="猜拳游戏"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/download"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/titleText" />
+
+    <RadioGroup
+        android:id="@+id/Choices1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_alignLeft="@id/image1"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/Choices1Option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="石头"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/Choices1Option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="剪子"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/Choices1Option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="布"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/download"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_below="@id/titleText" />
+
+    <RadioGroup
+        android:id="@+id/Choices2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image2"
+        android:layout_alignLeft="@id/image2"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/Choices2Option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="石头"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/Choices2Option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="剪子"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/Choices2Option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="布"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Choices1"
+        android:layout_alignLeft="@id/image1"
+        android:layout_alignRight="@id/image2"
+        android:text="确定"
+        android:textSize="25dp" />
+
+</RelativeLayout>
